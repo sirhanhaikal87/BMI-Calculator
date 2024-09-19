@@ -26,17 +26,20 @@
         android:orientation="horizontal">
 
         <RadioButton
+            android:id="@+id/radio_button_male"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Male" />
 
         <RadioButton
+            android:id="@+id/radio_button_female"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Female" />
     </RadioGroup>
 
     <EditText
+        android:id="@+id/edit_text_age"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
@@ -50,6 +53,7 @@
         android:orientation="horizontal">
 
         <EditText
+            android:id="@+id/edit_text_feet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
@@ -57,6 +61,7 @@
             android:inputType="number" />
 
         <EditText
+            android:id="@+id/edit_text_inches"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
@@ -66,22 +71,24 @@
     </LinearLayout>
 
     <EditText
+        android:id="@+id/edit_text_weight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:hint="Weight"
+        android:hint="Weight (kg)"
         android:inputType="number" />
 
     <Button
+        android:id="@+id/button_calculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:text="Calculate" />
 
     <TextView
+        android:id="@+id/text_view_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="40dp"
-        android:text="23.6 - You are healthy weight!" />
+        android:layout_margin="40dp"/>
 
 </LinearLayout>
